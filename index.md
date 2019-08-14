@@ -202,7 +202,7 @@ eventbrite: 66979169499          # optional: alphanumeric key for Eventbrite reg
 
   If you want to use an Etherpad, go to
 
-https://pad.carpentries.org/2019-09-27-UCSF-Python
+    http://pad.software-carpentry.org/YYYY-MM-DD-site
 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
