@@ -14,7 +14,7 @@ enddate: 2019-09-28        # machine-readable end date for the workshop in YYYY-
 instructor: ["Geoff Boushey, Dave Brown, Stephanie Hilz, Angelo Pelonero"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Ariel Deardorff, Karla Lindquist, Lohith Madireddy"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["joanna.kang@ucsf.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  'https://pad.carpentries.org/2019-09-27-UCSF-Python'  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes:  https://pad.carpentries.org/2019-09-27-UCSF-Python  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 66979169499          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -206,10 +206,11 @@ eventbrite: 66979169499          # optional: alphanumeric key for Eventbrite reg
 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
+  
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative Etherpad document </a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="https://pad.carpentries.org/2019-09-27-UCSF-Python">collaborative Etherpad document </a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
