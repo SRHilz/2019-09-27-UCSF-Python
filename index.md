@@ -519,7 +519,7 @@ eventbrite: 66979169499          # optional: alphanumeric key for Eventbrite reg
     </p>
     
     <p>
-      We will also be using a dataset called the gapminder dataset for some of our excercises. You can download it <a href="https://swcarpentry.github.io/python-novice-gapminder/setup/">here</a>. Once downloaded, move it onto your Desktop
+      We will also be using a dataset called the gapminder dataset for some of our excercises. You can download it <a href="https://en.wikipedia.org/wiki/Gapminder_Foundation/">here</a>. Once downloaded, move it onto your Desktop
       </p>
 
   <div class="row">
